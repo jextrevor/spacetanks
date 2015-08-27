@@ -113,7 +113,7 @@ var particle_system_geometry = new THREE.Geometry();
     camera.add( mesh );
 */
 
-particle_system_geometry.vertices.push(new THREE.Vector3(Math.random() * 10000-5000, Math.random() * 10000-5000, Math.random() * 10000-5000));
+particle_system_geometry.vertices.push(new THREE.Vector3(Math.random() * 10000000-5000000, Math.random() * 10000000-5000000, Math.random() * 10000000-5000000));
 }
 
 var particle_system_material = new THREE.PointCloudMaterial({
