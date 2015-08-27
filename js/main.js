@@ -165,7 +165,7 @@ function handleKeyDown(event) {
   if(event.keyCode === 68){
   	window.isDDown = true;
   }
-  if(event.keyCode === 8){
+  if(event.keyCode === 16){
   	window.isBackspaceDown = true;
   }
 }
@@ -195,7 +195,7 @@ function handleKeyUp(event) {
   if(event.keyCode === 68){
   	window.isDDown = false;
   }
-  if(event.keyCode === 8){
+  if(event.keyCode === 16){
   	window.isBackspaceDown = false;
   }
 }
