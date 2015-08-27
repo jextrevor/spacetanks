@@ -119,7 +119,7 @@ particle_system_geometry.vertices.push(new THREE.Vector3(Math.random() * 10000-5
 var particle_system_material = new THREE.PointCloudMaterial({
   color: 0xffffff,
   size: 7,
-  sizeAttenuation:false,
+  sizeAttenuation:true,
   map: THREE.ImageUtils.loadTexture(
     "img/particle.png"
   )//,
